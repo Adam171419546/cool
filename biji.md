@@ -19,5 +19,12 @@
 
 7. git add -u
 	> 只能上传改动后的文件到暂存区
-	
-<!-- 8. git -->
+
+8. git diff file 
+	> 这种是比较工作区和暂存区
+
+9. git diff --cached  file
+	> 比较暂存区与最新本地版本库
+
+10. git diff HEAD file
+	> 比较工作区和最新版本
